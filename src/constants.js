@@ -16,7 +16,7 @@ export const rooms = [
   {
     imageUrl: '/images/large.jpg',
     title: 'Spacious Serenity Suite',
-    description: 'Indulge in luxury and ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.',
+    description: 'Ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.',
     price: '₹1500/night',
   },
   {

@@ -11,12 +11,12 @@ const Header = () => {
   return (
     <header className="backdrop-blur-lg shadow-lg sticky top-0 z-99 flex flex-row w-screen">
         {/* logo */}
-      <div className="flex lg:w-1/4 w-1/2 bg-black/80 justify-center items-center">
+      <div className="flex lg:w-1/4 w-3/4 bg-black/80 justify-center items-center">
           <Link href="/">
           <Image src={"/images/logo-ksgh.webp"} alt='Kingh Sukh Guest House' width="186" height="115" /></Link>
       </div>
     
-      <div className="bg-white/80 flex lg:w-3/4 w-1/2">
+      <div className="bg-white/80 flex lg:w-3/4 w-1/4">
          <div className="container mx-auto px-12 md:px-6 py-4 flex md:justify-around justify-end items-center ">
         
         {/* nav links */}
