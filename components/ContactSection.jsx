@@ -29,11 +29,12 @@ const ContactSection = () => {
   return (
     <section id="contact" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Get In Touch" className="items-center" />
+        <SectionHeading title="Get In Touch" underlineclass="md:w-44" className="items-center" />
         
         <div className="flex flex-col md:flex-row bg-gray-50 rounded-lg shadow-xl overflow-hidden mt-12">
           
           {/* Left Side: Contact Info */}
+          {/* drop shadow on right side */}
           <div className="md:w-1/3 bg-gray-700 text-white p-8">
             <h3 className="text-3xl font-playfair mb-6">Contact Info</h3>
             <p className="font-roboto mb-8">We're here to help! Reach out to us for any inquiries or booking requests.</p>

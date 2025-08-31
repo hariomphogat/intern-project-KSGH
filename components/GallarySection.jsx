@@ -2,6 +2,7 @@ import React, { useState, useRef, useEffect } from 'react'
 import { motion, AnimatePresence } from 'framer-motion';
 import SectionHeading from '@/src/utils/SectionHeading';
 import { galleryImages } from '@/src/constants';
+import Image from 'next/image';
 
 const filters = ["All", "Guest House", "Rooms", "Scenery"];
 const GallarySection = () => {
@@ -34,7 +35,7 @@ const GallarySection = () => {
   return (
     <section id="gallery" className="py-20 bg-gray-50 overflow-hidden">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Explore Our Gallery" className="items-center" />
+        <SectionHeading title="Explore Our Gallery" underlineclass="md:w-[280px]" className="items-center" />
 
         <div className="flex justify-center space-x-2 md:space-x-4 mb-12">
           {filters.map(filter => (

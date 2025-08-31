@@ -7,7 +7,7 @@ const RoomsSection = () => {
   return (
     <section id="rooms" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Our Accommodations" className="items-center" />
+        <SectionHeading title="Our Accommodations" underlineclass="md:w-[320px]" className="items-center" />
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mt-8">
           {rooms.map((room, index) => (
             <RoomCard 

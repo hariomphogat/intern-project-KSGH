@@ -8,7 +8,7 @@ const Map = () => {
     <div className="mt-16">
       <div className="flex flex-col md:flex-row bg-gray-50 rounded-lg shadow-xl overflow-hidden">
         {/* Left Side: Info & Directions */}
-        <div className="md:w-1/4 p-8 flex flex-col justify-center">
+        <div className=" md:w-1/2 lg:w-1/4 p-8 flex flex-col justify-center">
           <h3 className="text-3xl font-playfair text-brand-slate mb-4">Find Us Easily</h3>
           <p className="font-roboto text-gray-600 mb-6">
             Located in a serene spot, our guest house is easy to find. Get directions and start your journey to a relaxing stay.
@@ -17,14 +17,14 @@ const Map = () => {
             href={mapDirectionsUrl}
             target="_blank"
             rel="noopener noreferrer"
-            className="bg-amber-400 text-white font-bold py-3 px-6 rounded-full hover:bg-yellow-600 transition-colors duration-300 text-center inline-block"
+            className="w-fit bg-amber-400 text-white font-bold py-3 px-8 rounded-full hover:bg-yellow-600 transition-colors duration-300 text-center inline-block"
           >
             Get Directions
           </a>
         </div>
 
         {/* Right Side: Map Iframe */}
-        <div className="md:w-3/4 h-128 md:h-auto">
+        <div className="md:w-1/2 lg:w-3/4 h-128 md:h-auto">
           <iframe
             src={mapEmbedSrc}
             width="100%"

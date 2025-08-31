@@ -15,9 +15,8 @@ const RoomCard = ({ imageUrl, title, description, price }) => {
         <Image
           src={imageUrl}
           alt={`Photo of ${title}`}
-          layout="fill"
-          objectFit="cover"
-          className="transition-transform duration-500 group-hover:scale-110" // Zoom effect on image
+          fill
+          className="object-cover transition-transform duration-500 group-hover:scale-110" // Zoom effect on image
         />
       </div>
       <div className="p-6 text-center">
