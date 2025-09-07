@@ -65,7 +65,7 @@ const HeroSection = () => {
   if (!mounted) return null;
 
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden bg-gray-50">
       {/* Background Image with Parallax */}
       <motion.div 
         className="absolute inset-0 z-0"
