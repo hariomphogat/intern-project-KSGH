@@ -8,19 +8,19 @@ export const navItems = [
 ];
 export const rooms = [
   {
-    imageUrl: '/images/small.jpg',
+    imageUrl: '/images/small.webp',
     title: 'Cozy Haven Room',
     description: 'Escape to comfort in our Cozy Haven Room, a snug retreat designed for intimate relaxation.',
     price: '₹1000/night',
   },
   {
-    imageUrl: '/images/large.jpg',
+    imageUrl: '/images/large.webp',
     title: 'Spacious Serenity Suite',
     description: 'Ample space in our Spacious Serenity Suite, where tranquility meets roomy elegance.',
     price: '₹1500/night',
   },
   {
-    imageUrl: '/images/room1.jpg',
+    imageUrl: '/images/room1.webp',
     title: 'Family Room',
     description: 'Our largest room, offering ample space and comfort for the whole family.',
     price: '₹2000/night',
