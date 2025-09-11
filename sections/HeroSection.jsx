@@ -75,7 +75,7 @@ const HeroSection = () => {
         animate="visible"
       >
         <Image
-          src="/images/header.jpg"
+          src="/images/header.webp"
           alt="Luxurious hotel room interior"
           fill
           className="object-cover"

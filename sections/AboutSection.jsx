@@ -8,6 +8,7 @@ import { highlights } from '../src/constants.js';
 import ServiceCard from '@/src/utils/ServiceCard.jsx';
 
 const AboutSection = () => {
+  const mapDirectionsUrl = "https://maps.app.goo.gl/7HAxWiKVMqSVKrDX6";
   const sectionRef = useRef(null);
   const isInView = useInView(sectionRef, { 
     once: true, 
@@ -118,7 +119,7 @@ const AboutSection = () => {
           >
             <div className="relative h-96 lg:h-[500px] rounded-2xl overflow-hidden shadow-2xl">
               <Image
-                src="/images/out.jpg" 
+                src="/images/out.webp" 
                 alt="Kingsukh Guest House surrounded by hills"
                 fill
                 className="object-cover object-top"
@@ -177,7 +178,7 @@ const AboutSection = () => {
             {attractions.map((attraction, index) => (
               <motion.div
                 key={index}
-                className="bg-amber-50 p-4 rounded-lg text-center hover:bg-amber-100 transition-colors duration-300 cursor-pointer"
+                className="bg-amber-50 p-4 rounded-lg text-center hover:bg-amber-100 transition-colors duration-300"
                 whileHover={{ scale: 1.05 }}
                 whileTap={{ scale: 0.95 }}
                 initial={{ opacity: 0, y: 20 }}
@@ -200,7 +201,7 @@ const AboutSection = () => {
                    {/* Address Card */}
           <motion.div
             variants={cardVariants}
-            className="bg-gradient-to-br from-amber-500 to-yellow-500 p-8 rounded-2xl text-white shadow-xl"
+            className="bg-gradient-to-br from-white via-amber-500/30 via-20% to-white p-8 rounded-2xl text-white shadow-xl"
           >
             <motion.div 
               className="text-3xl mb-4"
@@ -208,13 +209,14 @@ const AboutSection = () => {
             >
               📍
             </motion.div>
-            <h4 className="font-bold text-xl mb-3">Our Location</h4>
-            <p className="text-amber-100 leading-relaxed">
+            <h4 className="font-bold text-xl mb-3 text-black">Our Location</h4>
+            <p className="text-amber-600 leading-relaxed">
               Beside Barshal Water Tank, Manpur,<br />
               Barhanti, West Bengal - 723156
             </p>
             <motion.button
-              className="mt-4 px-6 py-2 bg-white/20 backdrop-blur-sm rounded-lg border border-white/30 hover:bg-white/30 transition-all duration-300"
+              onClick={() => window.open(mapDirectionsUrl, '_blank')}
+              className="mt-4 px-6 py-2 bg-white/20 backdrop-blur-sm rounded-lg border border-amber-500/60 hover:bg-amber-500/40 transition-all duration-300 text-black cursor-pointer"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.95 }}
             >
@@ -243,7 +245,8 @@ const AboutSection = () => {
               +91 9007062180
             </motion.a>
             <motion.button
-              className="mt-4 w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold rounded-lg hover:from-amber-600 hover:to-yellow-600 transition-all duration-300"
+              onClick={() => window.open("https://wa.me/919007062180", '_blank')}
+              className="mt-4 w-full px-6 py-3 bg-gradient-to-r from-amber-500 to-yellow-500 text-white font-semibold rounded-lg hover:from-amber-600 hover:to-yellow-600 transition-all duration-300 cursor-pointer"
               whileHover={{ scale: 1.02 }}
               whileTap={{ scale: 0.98 }}
             >

@@ -53,20 +53,20 @@ export const services = [
 
 export const galleryImages = [
   // Guest House Category
-  { id: 1, src: "/images/out.jpg", category: 'Guest House' },
-  { id: 2, src: "/images/service.jpg", category: 'Guest House' },
-  { id: 2, src: "/images/recep.jpg", category: 'Guest House' },
+  { id: 1, src: "/images/out.webp", category: 'Guest House' },
+  { id: 2, src: "/images/service.webp", category: 'Guest House' },
+  { id: 2, src: "/images/recep.webp", category: 'Guest House' },
   
   // Rooms Category
-  { id: 3, src: "/images/small.jpg", category: 'Rooms' },
-  { id: 4, src: "/images/room1.jpg", category: 'Rooms' },
-  { id: 5, src: "/images/large.jpg", category: 'Rooms' },
+  { id: 3, src: "/images/small.webp", category: 'Rooms' },
+  { id: 4, src: "/images/room1.webp", category: 'Rooms' },
+  { id: 5, src: "/images/large.webp", category: 'Rooms' },
 
   // Scenery Category
-  { id: 6, src: "/images/hills.jpg", category: 'Scenery' },
+  { id: 6, src: "/images/hills.webp", category: 'Scenery' },
   { id: 7, src: "/images/ayodhya.webp", category: 'Scenery' },
   { id: 8, src: "/images/baranti.webp", category: 'Scenery' },
-  { id: 9, src: "/images/flower.jpg", category: 'Scenery' },
+  { id: 9, src: "/images/flower.webp", category: 'Scenery' },
   { id: 10, src: "/images/dam.webp", category: 'Scenery' },
   { id: 11, src: "/images/palash.webp", category: 'Scenery' },
 ];
