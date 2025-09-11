@@ -37,9 +37,12 @@ const GallarySection = () => {
   return (
     <section id="gallery" className="py-20 bg-gray-50">
       <div className="container mx-auto px-6">
-        <SectionHeading title="Explore Our Gallery" underlineclass="md:w-[280px]" className="items-center" />
+        <SectionHeading
+         title="Explore Our Gallery"
+         subtitle="A virtual tour of our charming guest house and its beautiful surroundings"
+         />
 
-        <div className="flex justify-center space-x-2 md:space-x-4 mb-12">
+        <div className="flex justify-center space-x-2 md:space-x-4 mb-12 mt-6">
           {filters.map(filter => (
             <button
               key={filter}

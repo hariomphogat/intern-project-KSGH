@@ -70,3 +70,42 @@ export const galleryImages = [
   { id: 10, src: "/images/dam.webp", category: 'Scenery' },
   { id: 11, src: "/images/palash.webp", category: 'Scenery' },
 ];
+
+ // Nearby attractions data
+  export const attractions = [
+    "Biharinath Hill", "Baranti Hill", "Susunia Hill", 
+    "Joychandi Hill", "Garhpanchkot", "Baranti Dam", 
+    "Maithon Dam", "Panchat Dam"
+  ];
+
+  
+  export const highlights = [
+    { icon: "🏔️", title: "Scenic Location", description: "Surrounded by majestic hills and dams" },
+    { icon: "🌿", title: "Garden Oasis", description: "Verdant garden for relaxation" },
+    { icon: "🍽️", title: "Delightful Meals", description: "Authentic local and continental cuisine" },
+    { icon: "🏠", title: "Comfortable Stay", description: "Cozy accommodations with modern amenities" }
+  ];
+
+  export const contactInfo = [
+    {
+      icon: "📍",
+      title: "Visit Us",
+      content: "Beside Barshal Water Tank, Manpur, Barhanti, West Bengal 723156",
+      action: "Get Directions",
+      href: "https://maps.app.goo.gl/7HAxWiKVMqSVKrDX6"
+    },
+    {
+      icon: "✉️",
+      title: "Email Us",
+      content: "kkghosh0099@gmail.com",
+      action: "Send Email",
+      href: "mailto:kkghosh0099@gmail.com"
+    },
+    {
+      icon: "📞",
+      title: "Call Us",
+      content: "+91 9007062180",
+      action: "Call Now",
+      href: "tel:+919007062180"
+    }
+  ];

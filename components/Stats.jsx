@@ -6,11 +6,11 @@ const Stats = () => {
   return (
     <div className="py-16 bg-white">
       <div className="container mx-auto ">
-        <div className=" mx-auto bg-neutral-50 p-8 rounded-lg shadow-md">
+        <div className=" mx-auto bg-gradient-to-r from-neutral-50 via-gray-50 to-gray-50  p-8 rounded-lg shadow-md">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
             <Counter to={150} title="Happy Customers" />
             <Counter to={100} title="Bookings Completed" />
-            <Counter to={4} title=" Average Ratings" />
+            <Counter to={4} symbol="⋆" title=" Average Ratings" />
           </div>
         </div>
       </div>

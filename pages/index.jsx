@@ -1,11 +1,11 @@
 import React from 'react'
 import Layout from '@/components/Layout'
-import HeroSection from '@/components/HeroSection'
-import RoomsSection from '@/components/RoomsSection'
-import ServicesSection from '@/components/ServicesSection'
-import GallarySection from '@/components/GallarySection'
-import AboutSection from '@/components/AboutSection'
-import ContactSection from '@/components/ContactSection'
+import HeroSection from '@/sections/HeroSection'
+import RoomsSection from '@/sections/RoomsSection'
+import ServicesSection from '@/sections/ServicesSection'
+import GallarySection from '@/sections/GallarySection'
+import AboutSection from '@/sections/AboutSection'
+import ContactSection from '@/sections/ContactSection'
 import Head from 'next/head'
 const Home = () => {
   return (

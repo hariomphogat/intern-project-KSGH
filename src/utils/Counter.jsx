@@ -4,9 +4,9 @@ import { useInView } from "react-intersection-observer";
 
 
 
-export default function Counter({ to, title }) {
+export default function Counter({ to, title,symbol="+" }) {
   const count = useMotionValue(0);
-  const rounded = useTransform(count, (latest) => `${Math.round(latest)}+`);
+  const rounded = useTransform(count, (latest) => `${Math.round(latest)}${symbol}`);
 
   const [ref, inView] = useInView({
     triggerOnce: true, // Only trigger the animation once
